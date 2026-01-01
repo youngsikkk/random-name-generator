@@ -1,4 +1,4 @@
-# random-name-generator
+# @youngsikkk/random-name-generator
 
 A lightweight random name generator for Korean and English names. Zero dependencies, works offline.
 
@@ -9,7 +9,7 @@ A lightweight random name generator for Korean and English names. Zero dependenc
 ## Installation / 설치
 
 ```bash
-npm install random-name-generator
+npm install @youngsikkk/random-name-generator
 ```
 
 ---
@@ -48,7 +48,7 @@ npm install random-name-generator
 ### Korean Names / 한국 이름
 
 ```typescript
-import { korean } from 'random-name-generator';
+import { korean } from '@youngsikkk/random-name-generator';
 
 // Random gender / 랜덤 성별
 korean();                    // "김민준"
@@ -73,7 +73,7 @@ korean({ gender: 'female' }); // "정예은"
 ### English Names / 영어 이름
 
 ```typescript
-import { english } from 'random-name-generator';
+import { english } from '@youngsikkk/random-name-generator';
 
 // Random gender / 랜덤 성별
 english();                    // "James Smith"
@@ -105,7 +105,7 @@ import {
   englishLastNames,
   englishMaleNames,
   englishFemaleNames
-} from 'random-name-generator';
+} from '@youngsikkk/random-name-generator';
 
 console.log(koreanLastNames.length);  // 130
 console.log(koreanMaleNames.length);  // 250

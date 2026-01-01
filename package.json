@@ -1,5 +1,5 @@
 {
-  "name": "random-name-generator",
+  "name": "@youngsikkk/random-name-generator",
   "version": "1.0.0",
   "description": "Random Korean and English name generator",
   "main": "dist/index.js",
