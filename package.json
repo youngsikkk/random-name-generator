@@ -30,6 +30,14 @@
   ],
   "author": "",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youngsikkk/random-name-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/youngsikkk/random-name-generator/issues"
+  },
+  "homepage": "https://github.com/youngsikkk/random-name-generator#readme",
   "devDependencies": {
     "typescript": "^5.3.0"
   }
